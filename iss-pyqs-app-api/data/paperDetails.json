@@ -1,0 +1,454 @@
+{
+  "paperDetails": [
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-INDIAN-ECONOMICS-240624.pdf",
+      "paperName": "Indian Economics",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-IV-240624.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-PAPER-II-240624.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-PAPER-III-240624.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-II-240624.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-III-240624.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ECONOMICS-%20PAPER-I-240624.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-ENGLISH-240624.pdf",
+      "paperName": "General English",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-GENERAL-STUDIES-240624.pdf",
+      "paperName": "General Studies",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-24-STATISTICS-PAPER-I-240624.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2024
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-INDIAN-ECONOMICS-260623.pdf",
+      "paperName": "Indian Economics",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-STATICTICS-PAPER-IV-260623.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-GENERAL-ECONOMICS-PAPER-II-250623.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-GENERAL-ECONOMICS-PAPER-III-250623.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-STATISTICS-PAPER-II-250623.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-23-STATISTICS-PAPER-III-250623.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-GENERAL-ECONOMICS-PAPER-I-240623.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-GENERAL-ENGLISH-240623.pdf",
+      "paperName": "General English",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-GENERAL-STUDIES-240623.pdf",
+      "paperName": "General Studies",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IES-ISS-STATISTICS-PAPER-I-240623.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2023
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Ind_Eco_28062022.pdf",
+      "paperName": "Indian Economics",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Stat_IV_28062022.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Eco_II_28062022.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Eco_III_28062022.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Stat_II_28062022.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Stat_III_28062022.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Eco_I_28062022.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Eng__28062022.pdf",
+      "paperName": "General English",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Stud__28062022.pdf",
+      "paperName": "General Studies",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Stat_I_28062022.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2022
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-IndianEco-190721.pdf",
+      "paperName": "Indian Economics",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-Statistics-IV-190721.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-GenEconomics-II-190721.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-GenEconomics-III-190721.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-Statistics-II-190721.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-Statistics-III-190721.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-GenEconomics-III-190721.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-GenEnglish-190721.pdf",
+      "paperName": "General English",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-GenStudies-190721.pdf",
+      "paperName": "General Studies",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/QP-IESISS-21-Statistics-I-190721.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2021
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/IND_ECO-IESISS-20-QP.pdf",
+      "paperName": "Indian Economics",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STAT_P1-IESISS-20-QP.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P2-IESISS-20-QP.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P3-IESISS-20-QP.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STAT_P2-IESISS-20-QP.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STAT_P3-IESISS-20-QP.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P1-IESISS-20-QP.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ENG-IESISS-20-QP.pdf",
+      "paperName": "General English",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GEN_STD-IESISS-20-QP.pdf",
+      "paperName": "General Studies",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STAT_P1-IESISS-20-QP.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2020
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/INDIA_ECO_IESISS19.pdf",
+      "paperName": "Indian Economics",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATS_P4_IESISS19.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GE_P2_IESISS19.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GE_P3_IESISS19.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATS_P2_IESISS19.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATS_P3_IESISS19.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GE_P1_IESISS19.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_Eng_IESISS19.pdf",
+      "paperName": "General English",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/Gen_St_IESISS19.pdf",
+      "paperName": "General Studies",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATS_P1_IESISS19.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2019
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL-STUDIES.pdf",
+      "paperName": "General Studies",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL-ENGLISH.pdf",
+      "paperName": "General English",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/INDIAN-ECONOMICS.pdf",
+      "paperName": "Indian Economics",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL-ECONOMICS-PAPER-1.pdf",
+      "paperName": "General Economics Paper 1",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL-ECONOMICS-PAPER-2.pdf",
+      "paperName": "General Economics Paper 2",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL-ECONOMICS-PAPER-3.pdf",
+      "paperName": "General Economics Paper 3",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS-PAPER-1.pdf",
+      "paperName": "Statistics Paper 1",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS-PAPER-2.pdf",
+      "paperName": "Statistics Paper 2",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS-PAPER-3.pdf",
+      "paperName": "Statistics Paper 3",
+      "year": 2018
+    },
+    {
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS-PAPER-4.pdf",
+      "paperName": "Statistics Paper 4",
+      "year": 2018
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL_STUDIES_3.pdf",
+      "paperName": "General Studies"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL_ENGLISH_5.pdf",
+      "paperName": "General English"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/INDIAN_ECONOMICS_3.pdf",
+      "paperName": "Indian Economics"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL_ECONOMICS_PAPER_I_0.pdf",
+      "paperName": "General Economics Paper 1"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL_ECONOMICS_PAPER_II_0.pdf",
+      "paperName": "General Economics Paper 2"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/GENERAL_ECONOMICS_PAPER_III_0.pdf",
+      "paperName": "General Economics Paper 3"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS_PAPER_I_2.pdf",
+      "paperName": "Statistics Paper 1"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS_PAPER_II_1.pdf",
+      "paperName": "Statistics Paper 2"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS_PAPER_III_1.pdf",
+      "paperName": "Statistics Paper 3"
+    },
+    {
+      "year": 2017,
+      "url": "https://upsc.gov.in/sites/default/files/STATISTICS_PAPER_IV.pdf",
+      "paperName": "Statistics Paper 4"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/GS.pdf",
+      "paperName": "General Studies"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ENG.pdf",
+      "paperName": "General English"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/INDI_ECO.pdf",
+      "paperName": "Indian Economics"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P1.pdf",
+      "paperName": "General Economics Paper 1"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P2.pdf",
+      "paperName": "General Economics Paper 2"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/GEN_ECO_P3.pdf",
+      "paperName": "General Economics Paper 3"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/STAT-1.pdf",
+      "paperName": "Statistics Paper 1"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/STAT-2.pdf",
+      "paperName": "Statistics Paper 2"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/STAT-3.pdf",
+      "paperName": "Statistics Paper 3"
+    },
+    {
+      "year": 2016,
+      "url": "https://upsc.gov.in/sites/default/files/STAT-4.pdf",
+      "paperName": "Statistics Paper 4"
+    }
+  ]
+}

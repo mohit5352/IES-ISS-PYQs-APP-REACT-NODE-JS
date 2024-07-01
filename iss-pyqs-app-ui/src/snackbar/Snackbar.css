@@ -1,0 +1,43 @@
+.snackbar-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.snackbar-container.success {
+    background-color: #4CAF50;
+    /* Green */
+}
+
+.snackbar-container.error {
+    background-color: #f44336;
+    /* Red */
+}
+
+.snackbar-container span {
+    margin-right: 10px;
+}
+
+.snackbar-container button {
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.snackbar-container button:focus {
+    outline: none;
+}
+
+.snackbar-container button:hover {
+    border-color: transparent;
+}

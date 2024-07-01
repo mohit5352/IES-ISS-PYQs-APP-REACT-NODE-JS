@@ -1,0 +1,205 @@
+/* styles.css */
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: 0 !important;
+}
+
+#root {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #59577d;
+  color: #fff;
+  padding: 8px;
+
+  .app-logo-image {
+    width: 40px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 15px; /* Add some space between the logo and the title */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .app-title {
+    margin: 0;
+    font-size: 1.5em; /* Adjust the font size as needed */
+    /* color: #32cd32; */
+  }
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.paper-list {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  max-height: 432px; /* Adjust max-height to your preference */
+  overflow-y: auto; /* Show scroll bar only when needed */
+  scroll-behavior: smooth; /* Optional: Smooth scrolling */
+}
+
+.paper-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background-color: lightyellow;
+}
+
+.paper-item p {
+  margin: 0;
+}
+
+.paper-item a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.paper-item a:hover {
+  text-decoration: underline;
+}
+
+.pdf-viewer {
+  display: flex;
+  flex-direction: column;
+
+  .view-pdf-button {
+    margin-top: 20px;
+    background-color: #59577d;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+  }
+
+  .close-pdf-button {
+    margin: 20px 0;
+    background-color: #808080;
+  }
+
+  h4 {
+    color: red;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.paper-search-results-text {
+  color: darkred;
+  margin-top: 20px;
+  width: fit-content;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.paper-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.paper-form-container,
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paper-form-group {
+  margin-bottom: 20px;
+}
+
+.paper-form-group label,
+.url-field-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #59577d;
+}
+
+.paper-form-control,
+input,
+select {
+  width: 320px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  width: 320px;
+}
+
+.url-fields-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.url-field-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.global-btn {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #808080;
+  width: fit-content;
+}
+
+.submit-button {
+  background-color: #59577d;
+}
+
+.right-align-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.toggle-form-button,
+.cancel-button,
+.add-paper-button {
+  background-color: #035b47;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
