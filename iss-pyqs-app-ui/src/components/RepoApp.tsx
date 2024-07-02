@@ -1,15 +1,18 @@
 // RepoApp.tsx
 import React, { useState, useEffect } from 'react';
-import Header from './Header';
 import PaperList from './PaperList';
 import SearchBar from './SearchBar';
 import FilterOptions from './FilterOptions';
 import LoadingSpinner from './LoadingSpinner';
 import { Paper, fetchPapers } from '../service/FetchPaperDetails';
 import PdfViewer from './PdfViewer';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
-const RepoApp: React.FC = () => {
+interface RepoAppProps {
+    onEditButtonClick: (paper: Paper) => void;
+}
+
+const RepoApp: React.FC<RepoAppProps> = ({ onEditButtonClick }) => {
     const [papers, setPapers] = useState([] as Paper[]);
     const [filteredPapers, setFilteredPapers] = useState([] as Paper[]);
     const [loading, setLoading] = useState(false);
@@ -18,6 +21,7 @@ const RepoApp: React.FC = () => {
     const [selectedYear, setSelectedYear] = useState<number | null>(null); // Add state for selected year
     const [selectedPaper, setSelectedPaper] = useState<Paper | null>(null); // State to track the selected paper
     const [downloaded, setDownloaded] = useState(false);
+    const navigate = useNavigate();
 
     useEffect(() => {
         setFilteredPapers(papers); // Update filtered papers whenever papers change
@@ -83,6 +87,12 @@ const RepoApp: React.FC = () => {
     const handleBackButtonClick = () => {
         setSelectedPaper(null);
     };
+    const handleEditButtonClick = () => {
+        if (selectedPaper) {
+            onEditButtonClick(selectedPaper);
+            navigate('/edit');
+        }
+    };
 
     return (
         <div className="app">
@@ -107,11 +117,12 @@ const RepoApp: React.FC = () => {
                 {selectedPaper && (
                     <>
                         <br />
+                        <h4>{`${selectedPaper.subject}(${selectedPaper.year})`}</h4>
                         <div className="sidebar">
                             <button className="back-button global-btn" onClick={handleBackButtonClick}>Back</button>
-                            <Link to="/add">
-                                <button className="add-paper-button global-btn">Add New Paper</button>
-                            </Link>
+                            {/* <Link to="/edit"> */}
+                                <button className="add-paper-button global-btn" onClick={handleEditButtonClick}>Edit Paper</button>
+                            {/* </Link> */}
                         </div>
                     </>
                 )}

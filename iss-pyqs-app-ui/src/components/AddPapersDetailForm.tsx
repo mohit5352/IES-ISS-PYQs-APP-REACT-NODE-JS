@@ -5,17 +5,17 @@ import 'react-datepicker/dist/react-datepicker.css';
 import { useNavigate } from 'react-router-dom';
 import Snackbar from '../snackbar/Snackbar';
 
-interface PaperDetailFormProps {
+interface AddPapersDetailFormProps {
     onSubmit: (formData: FormData[]) => void;
 }
 
-interface FormData {
+export interface FormData {
     year: Date | number | null;
     url: string;
     paperName: string;
 }
 
-const PaperDetailForm: React.FC<PaperDetailFormProps> = ({ onSubmit }) => {
+const AddPapersDetailForm: React.FC<AddPapersDetailFormProps> = ({ onSubmit }) => {
     const subjects = ['General Studies', 'General English', 'Indian Economics', 'General Economics Paper 1', 'General Economics Paper 2', 'General Economics Paper 3', 'Statistics Paper 1', 'Statistics Paper 2', 'Statistics Paper 3', 'Statistics Paper 4'];
     const [formData, setFormData] = useState<{ year: Date | null; papers: { paperName: string; url: string }[] }>({
         year: null,
@@ -82,7 +82,7 @@ const PaperDetailForm: React.FC<PaperDetailFormProps> = ({ onSubmit }) => {
             <br />
             <div className="button-group">
                 <button onClick={handleBackButtonClick} className="back-button global-btn">Back</button>
-                <button onClick={resetForm} className="cancel-button global-btn">Cancel</button>
+                {/* <button onClick={resetForm} className="cancel-button global-btn">Cancel</button> */}
             </div>
             <h3>Add Paper(s)</h3>
             {formVisible && (
@@ -121,7 +121,10 @@ const PaperDetailForm: React.FC<PaperDetailFormProps> = ({ onSubmit }) => {
                             ))}
                         </div>
                     )}
-                    <button type="submit" className="submit-button global-btn">Submit</button>
+                    <div className="button-group">
+                        <button onClick={resetForm} className="cancel-button global-btn">Cancel</button>
+                        <button type="submit" className="submit-button global-btn">Submit</button>
+                    </div>
                 </form>
             )}
             {showSnackbar && <Snackbar message={snackbarMessage} onClose={handleCloseSnackbar} type={successOrError} />}
@@ -129,4 +132,4 @@ const PaperDetailForm: React.FC<PaperDetailFormProps> = ({ onSubmit }) => {
     );
 };
 
-export default PaperDetailForm;
+export default AddPapersDetailForm;

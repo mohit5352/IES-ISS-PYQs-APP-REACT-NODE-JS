@@ -5,6 +5,7 @@ const LoadingSpinner: React.FC = () => {
   return (
     <div className="loading-spinner">
       {/* Add loading spinner UI element here */}
+      Loading...
     </div>
   );
 };

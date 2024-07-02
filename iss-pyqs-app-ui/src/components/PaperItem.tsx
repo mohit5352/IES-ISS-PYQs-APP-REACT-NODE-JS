@@ -23,7 +23,7 @@ const PaperItem: React.FC<Props> = ({ paper,onClick }) => {
       <p>{paper.year}</p>
       <p>{paper.subject}</p>
       {/* <a href={paper.downloadLink} target="_blank" rel="noopener noreferrer">Download</a> */}
-      <a href='#'>Download</a>
+      <a href='#'>View/Edit</a>
     </div>
   );
 };

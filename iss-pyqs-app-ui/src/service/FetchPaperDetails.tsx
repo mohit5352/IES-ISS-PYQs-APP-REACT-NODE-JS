@@ -45,3 +45,28 @@ export const fetchPapersData = async (): Promise<PaperDetail[]> => {
     }
 };
 
+export const fetchPaperDataByYearAndName = async (year: number, paperName: string): Promise<PaperDetail | {}> => {
+    try {
+        const response = await fetch(`http://localhost:3001/api/paper-detail/year=${year}&name=${paperName}`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const data: PaperDetail = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error fetching paper details:', error);
+        return {};
+    }
+};
+
+export function fetchPaper(year: number, paperName: string): Promise<PaperDetail | {}> {
+    return fetchPaperDataByYearAndName(year, paperName)
+        .then((data: PaperDetail | {}) => {
+            return data;
+        })
+        .catch((error) => {
+            console.error('Error fetching papers:', error);
+            return {};
+        });
+}
+

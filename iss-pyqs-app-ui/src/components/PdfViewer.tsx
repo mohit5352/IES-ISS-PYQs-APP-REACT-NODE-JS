@@ -30,7 +30,7 @@ const PdfViewer: React.FC<Props> = ({ pdfUrl, downloaded, setDownloaded, paperNa
 
     return (
         <div className="pdf-viewer">
-            {!downloaded && <button className='view-pdf-button' onClick={downloadPdf}>View PDF</button>}
+            {!downloaded && <button className='view-pdf-button' onClick={downloadPdf}>View Paper PDF</button>}
             {downloaded && (
                 <>
                     <div className='button-group'>
